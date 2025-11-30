@@ -63,6 +63,7 @@ function validar(){
     for(let i=0; i<persona.length;i++){
         if(persona[i].usuario == userEmail && persona[i].contraseña==userPass){
         ocultarError('login_error')
+        valido = true
         break
         }else{
             mostrarError('login_error', '❌ Error en ingreso de datos')
