@@ -1,9 +1,13 @@
 body{
     background-image: url("Fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
     text-align: center;
+    color: blanchedalmond;
     font-size: clamp(32px,5vw,50px);
 }
 
@@ -16,7 +20,7 @@ section{
 }
 
 form{
-    border: solid rgb(214, 150, 150);
+    
     text-align: center;
     color: blanchedalmond;
     margin-left: 10%;
