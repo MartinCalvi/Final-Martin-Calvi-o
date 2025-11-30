@@ -65,7 +65,7 @@ function validar(){
         ocultarError('login_error')
         break
         }else{
-            mostrarError('login_error', 'Las credenciales no son validos')
+            mostrarError('login_error', '❌ Error en ingreso de datos')
             valido=false
         }
 
