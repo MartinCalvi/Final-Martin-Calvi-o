@@ -1,0 +1,55 @@
+body{
+    background-image: url("Fondo.png");
+}
+
+header{
+    text-align: center;
+    font-size: clamp(32px,5vw,50px);
+}
+
+
+
+section{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: clamp(16px,3.5vw,32px);
+}
+
+form{
+    border: solid rgb(214, 150, 150);
+    text-align: center;
+    color: blanchedalmond;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex; /*Da una disposicion horizontal*/
+    flex-direction: column;  /*Tambien puede ser columna : collumn*/
+    justify-content: space-around;
+    flex-wrap: wrap;  /*Me ayuda a que el cotenido se adapte */ 
+    gap: 5px;
+
+}
+
+.error{
+    color: rgb(237, 165, 165);
+}
+
+#id_mail , #id_pass{
+    text-align: center;
+    font-size: clamp(16px,3.5vw,32px);
+}
+
+#boton_ingresar{
+    background-color: #007bff;
+    margin-top: 15px;
+    font-size: clamp(16px,3.5vw,32px);
+    cursor: pointer;          /* Muestra la mano al pasar el cursor */
+    border-radius: 5px;
+    
+}
+
+#boton_ingresar:hover {
+    background-color: #1db702; /* Azul más oscuro (Nuevo color) */
+}
